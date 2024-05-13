@@ -14,7 +14,9 @@ pip install opencv-python==4.5.5.64
 ```
 
 ### Inference
-Run python main.py $1 $2 for testing, $1 is model file path and $2 is image file path
+```bash
+$ python main.py
+```
 ## Model Performances
 
 |      Name      | Easy  | Medium | Hard  | FLOPs | Params(M) | Infer(ms) |
